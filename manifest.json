@@ -8,11 +8,9 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "activeTab"
   ],
   "content_scripts": [
     {
-        "matches": [ "https://en.wikipedia.org/wiki/List_of_chess_games"],
         "js": ["popup.js"]
     }
  ],
