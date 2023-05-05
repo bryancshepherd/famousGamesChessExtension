@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Daily Famous Chess Games",
+  "name": "Chess Chronicles",
   "version": "1.0",
-  "description": "Fetches a description of a historically noteworthy chess game and displays it in a popup.",
+  "description": "Uncover legendary chess games from the past, right in your browser!",
   "action": {
     "default_icon": "assets/icon.png",
     "default_popup": "popup.html"
