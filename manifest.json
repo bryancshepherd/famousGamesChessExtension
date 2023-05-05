@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Famous Chess Games",
+  "version": "1.0",
+  "description": "Fetches a description of a historically noteworthy chess game and displays it in a popup.",
+  "action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+        "matches": [ "https://en.wikipedia.org/wiki/List_of_chess_games"],
+        "js": ["popup.js"]
+    }
+ ],
+ "icons": {
+    "48": "assets/icon.png"
+ }
+}
